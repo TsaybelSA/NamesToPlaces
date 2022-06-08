@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17AC616928508EBE0006CCFD /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC616828508EBE0006CCFD /* PlaceCell.swift */; };
 		17EBA555285089E900538CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBA554285089E900538CED /* AppDelegate.swift */; };
 		17EBA557285089E900538CED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBA556285089E900538CED /* SceneDelegate.swift */; };
 		17EBA559285089E900538CED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBA558285089E900538CED /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17AC616828508EBE0006CCFD /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
 		17EBA551285089E900538CED /* NamesToPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamesToPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17EBA554285089E900538CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17EBA556285089E900538CED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				17EBA556285089E900538CED /* SceneDelegate.swift */,
 				17EBA558285089E900538CED /* ViewController.swift */,
 				17EBA55A285089E900538CED /* Main.storyboard */,
+				17AC616828508EBE0006CCFD /* PlaceCell.swift */,
 				17EBA55D285089EA00538CED /* Assets.xcassets */,
 				17EBA55F285089EA00538CED /* LaunchScreen.storyboard */,
 				17EBA562285089EA00538CED /* Info.plist */,
@@ -141,6 +144,7 @@
 				17EBA559285089E900538CED /* ViewController.swift in Sources */,
 				17EBA555285089E900538CED /* AppDelegate.swift in Sources */,
 				17EBA557285089E900538CED /* SceneDelegate.swift in Sources */,
+				17AC616928508EBE0006CCFD /* PlaceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

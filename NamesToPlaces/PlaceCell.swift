@@ -11,5 +11,4 @@ class PlaceCell: UICollectionViewCell {
 	@IBOutlet var imageView: UIImageView!
 	@IBOutlet var name: UILabel!
 	
-
 }

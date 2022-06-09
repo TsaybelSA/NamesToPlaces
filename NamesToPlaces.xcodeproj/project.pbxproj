@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17AC616928508EBE0006CCFD /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC616828508EBE0006CCFD /* PlaceCell.swift */; };
+		17D6B60D2851A766000EE732 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D6B60C2851A766000EE732 /* Place.swift */; };
 		17EBA555285089E900538CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBA554285089E900538CED /* AppDelegate.swift */; };
 		17EBA557285089E900538CED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBA556285089E900538CED /* SceneDelegate.swift */; };
 		17EBA559285089E900538CED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBA558285089E900538CED /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		17AC616828508EBE0006CCFD /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		17D6B60C2851A766000EE732 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		17EBA551285089E900538CED /* NamesToPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamesToPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17EBA554285089E900538CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17EBA556285089E900538CED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				17EBA554285089E900538CED /* AppDelegate.swift */,
 				17EBA556285089E900538CED /* SceneDelegate.swift */,
 				17EBA558285089E900538CED /* ViewController.swift */,
+				17D6B60C2851A766000EE732 /* Place.swift */,
 				17EBA55A285089E900538CED /* Main.storyboard */,
 				17AC616828508EBE0006CCFD /* PlaceCell.swift */,
 				17EBA55D285089EA00538CED /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				17EBA555285089E900538CED /* AppDelegate.swift in Sources */,
 				17EBA557285089E900538CED /* SceneDelegate.swift in Sources */,
 				17AC616928508EBE0006CCFD /* PlaceCell.swift in Sources */,
+				17D6B60D2851A766000EE732 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +298,7 @@
 				DEVELOPMENT_TEAM = XY2J735A6H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NamesToPlaces/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to import photo of place.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,6 +327,7 @@
 				DEVELOPMENT_TEAM = XY2J735A6H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NamesToPlaces/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to import photo of place.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

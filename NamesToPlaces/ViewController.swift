@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UICollectionViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+	
+	var places = [Place]()
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -32,6 +34,11 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
 		if let jpeg = image.jpegData(compressionQuality: 0.7) {
 			try? jpeg.write(to: imagePath)
 		}
+		
+		places.append(Place(name: "Unknown", image: imageName))
+		
+		collectionView?.reloadData()
+		
 		dismiss(animated: true)
 	}
 	
@@ -41,11 +48,19 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
 	}
 	
 	override func numberOfSections(in collectionView: UICollectionView) -> Int {
-		return 10
+		return places.count
 	}
 	
 	override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Place", for: indexPath)
+		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Place", for: indexPath) as! PlaceCell
+		
+		let place = places[indexPath.item]
+		cell.name.text = place.name
+		
+		let path = getDocumentsDirectory().appendingPathComponent(place.image)
+		cell.imageView.image = UIImage(contentsOfFile: path.path)
+		
+//		cell.imageView.layer.borderWidth
 		return cell
 	}
 }
